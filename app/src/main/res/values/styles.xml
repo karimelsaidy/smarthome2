@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/card_back</item>
+        <item name="android:navigationBarColor">@color/colorNavigation</item>
+    </style>
+
+
+
+    <style name="cardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">145dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin"> 8dp </item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/card_back</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="cardView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">145dp</item>
+        <item name="android:layout_margin"> 8dp </item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/card_back</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="textCard">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/textColor</item>
+
+          <item name="android:fontFamily">@font/play_fair</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="row">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+
+    <style name="contact_dilaog">
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">@color/card_back</item>
+        <item name="android:fontFamily">@font/play_fair</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">smart home</string>
+    <string name="user_name">User name</string>
+    <string name="open_home">open\n home</string>
+    <string name="open_door">open the door </string>
+    <string name="kitchen"> kitchen  </string>
+    <string name="bath_room">bath \n room</string>
+    <string name="bed_room">bed \n room</string>
+    <string name="guest">guest \n room</string>
+    <string name="camera"> security </string>
+    <string name="morning">  morning  </string>
+    <string name="garage"> garage </string>
+    <string name="setting"> setting  </string>
+    <string name="children_room">children \n room</string>
+    <string name="contact">contact \n us</string>
+    <string name="about">about \n  us</string>
+    <string name="about_describe">
+        شركة تكنولوجيه وتحكم الى
+        \n
+        تعمل فى مجال المنازل الذكيه والمبانى والتحكم بهما
+        \n
+        ومقر الشركه بكفر الشيخ
+    </string>
+
+    <string name="call_us">call us</string>
+    <string name="gmail">sent a mail</string>
+    <string name="facebook">visit us</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User name</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="logout">log out</string>
+
+
+</resources>

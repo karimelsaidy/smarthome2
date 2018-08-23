@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/call"
+        style="@style/contact_dilaog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_us"
+        android:background="@drawable/call_ground"
+        android:drawableLeft="@drawable/phone"
+      />
+    <Button
+        android:id="@+id/gmail"
+        style="@style/contact_dilaog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gmail"
+        android:background="@drawable/gmail_ground"
+        android:drawableLeft="@drawable/gmail"
+       />
+    <Button
+        android:id="@+id/face_book"
+        style="@style/contact_dilaog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook"
+        android:background="@drawable/face_ground"
+        android:text="@string/facebook"
+        />
+</LinearLayout>

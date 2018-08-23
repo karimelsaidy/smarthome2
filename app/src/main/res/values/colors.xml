@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1695A3</color>
+    <color name="colorPrimaryDark">#225378</color>
+    <color name="colorAccent">#ACF0F2</color>
+    <color name="colorNavigation">#225378</color>
+    <color name="textColor">#000000</color>
+
+    <color name="background_all">#E9EBEE</color>
+    <color name="card_back">#ffffff</color>
+    <color name="facebook">#3A5A9C</color>
+    <color name="gmail">#D94B3E</color>
+    <color name="call">#a9c9e5</color>
+</resources>
